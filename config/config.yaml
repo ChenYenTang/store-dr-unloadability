@@ -1,0 +1,21 @@
+
+thresholds:
+  refrigerator:
+    air_return_c_max: 7.0
+    milk_surface_c_max: 6.0
+    chill_mw_surface_c_max: 8.0
+    rise_c_per_min_max: 0.5
+  freezer:
+    air_return_c_max: -15.0
+    mw_freeze_surface_c_max: -12.0
+    rise_c_per_min_max: 0.4
+defrost:
+  grace_min: 5
+  penalty_factor: 0.8
+weights:
+  w_time: 0.35
+  w_energy: 0.25
+  w_risk: 0.20
+  w_open: 0.05
+  w_dload: 0.10
+  w_defrost: 0.05
