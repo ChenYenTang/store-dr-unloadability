@@ -9,4 +9,4 @@ demo = build_demo()
 
 # Mount on FastAPI at /ui
 app: FastAPI = api_app
-app = gr.mount_gradio_app(app, demo, path="/ui")
+app = gr.mount_gradio_app(app, demo, path="/")
